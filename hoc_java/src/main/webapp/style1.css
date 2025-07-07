@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 20px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo a {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color: #a8dadc;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+}
+.hero .btn {
+    background-color: #006400;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.hero .btn:hover {
+    background-color: #32cd32;
+}
+
+/* Products Section */
+.products {
+    padding: 60px 0;
+    background-color: white;
+}
+.products .container {
+    text-align: center;
+}
+.products .section-title {
+    font-size: 32px;
+    color: #2d6a4f;
+    margin-bottom: 40px;
+}
+.products .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.product-item {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px; /* Tuỳ chỉnh theo thiết kế */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.product-item.show {
+    display: flex; /* 👈 Sử dụng flex thay vì block */
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.products .product-item:hover {
+    transform: translateY(-10px);
+}
+.products .product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.products .product-item h3 {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.products .product-item p {
+    font-size: 16px;
+    color: #007a4d;
+}
+.products .product-item .btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    display: inline-block;
+    margin-top: 10px; /* 👈 Thêm dòng này để tạo khoảng cách với phần giá */
+}
+
+.products .product-item .btn:hover {
+    background-color: #32cd32;
+}
+
+/* Footer */
+footer {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+/* Nút phân trang */
+.pagination .btn {
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #3498db;
+    color: red;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Hover hiệu ứng */
+.pagination .btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Nút khi bị disable */
+.pagination .btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+
