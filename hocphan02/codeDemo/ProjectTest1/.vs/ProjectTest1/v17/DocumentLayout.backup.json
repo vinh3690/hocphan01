@@ -1,0 +1,921 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\ProjectTest1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\d0a903b2-f060-4b98-9d15-44d9de81540c_vnpay_cs.zip.40c\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\df156f32-b8a7-43be-a7b5-44dae031686c_vnpay_cs.zip.86c\\vnpay_cs\\VNPAY_CS_ASPX\\VnPayLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\paymentinformationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\paymentinformationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\helpper\\vnpay\\ivnpayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\helpper\\vnpay\\ivnpayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\cd1190d1-9829-4690-a990-bc71cbbc043d_vnpay_cs.zip.43d\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\2b1965aa-3fce-48ee-b31d-5b93e922b959_vnpay_cs.zip.959\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\paymentresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\paymentresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\models\\productvariantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\models\\productvariantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\wwwroot\\js\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\wwwroot\\js\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\wwwroot\\js\\account.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\wwwroot\\js\\account.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\productvariantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\productvariantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\models\\productimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\models\\productimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\product\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\product\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\category\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\category\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\home\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\home\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\colorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\colorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\viewmodels\\sizeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\viewmodels\\sizeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|d:\\c#\\projecttest1\\projecttest1\\migrations\\20250820080010_removefeild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EA9830-3517-4E10-AF74-D6A46CFF3265}|ProjectTest1\\ProjectTest1.csproj|solutionrelative:projecttest1\\migrations\\20250820080010_removefeild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T10:48:46.192Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T04:40:25.951Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.js",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Product.js",
+              "RelativeDocumentMoniker": "ProjectTest1\\wwwroot\\js\\Product.js",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Product.js",
+              "RelativeToolTip": "ProjectTest1\\wwwroot\\js\\Product.js",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-12T10:32:40.282Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\PaymentController.cs*",
+              "RelativeToolTip": "ProjectTest1\\Controllers\\PaymentController.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAtwEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T03:49:36.491Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectTest1\\appsettings.json",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\appsettings.json",
+              "RelativeToolTip": "ProjectTest1\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-21T09:34:05.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Libraries\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Libraries\\VnPayLibrary.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Libraries\\VnPayLibrary.cs",
+              "RelativeToolTip": "ProjectTest1\\Libraries\\VnPayLibrary.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAADwv6wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T03:37:05.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T08:36:50.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Program.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Program.cs",
+              "RelativeToolTip": "ProjectTest1\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T10:26:43.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\df156f32-b8a7-43be-a7b5-44dae031686c_vnpay_cs.zip.86c\\vnpay_cs\\VNPAY_CS_ASPX\\VnPayLibrary.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\df156f32-b8a7-43be-a7b5-44dae031686c_vnpay_cs.zip.86c\\vnpay_cs\\VNPAY_CS_ASPX\\VnPayLibrary.cs [Read Only]",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAwKQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T08:40:20.187Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "vnpay_pay.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\d0a903b2-f060-4b98-9d15-44d9de81540c_vnpay_cs.zip.40c\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\d0a903b2-f060-4b98-9d15-44d9de81540c_vnpay_cs.zip.40c\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:48:53.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentInformationViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\PaymentInformationViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\PaymentInformationViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\PaymentInformationViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\PaymentInformationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T03:33:04.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IVnPayHelper.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Helpper\\VnPay\\IVnPayHelper.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Helpper\\VnPay\\IVnPayHelper.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Helpper\\VnPay\\IVnPayHelper.cs",
+              "RelativeToolTip": "ProjectTest1\\Helpper\\VnPay\\IVnPayHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T04:03:19.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "vnpay_pay.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\cd1190d1-9829-4690-a990-bc71cbbc043d_vnpay_cs.zip.43d\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\cd1190d1-9829-4690-a990-bc71cbbc043d_vnpay_cs.zip.43d\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:53:26.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "vnpay_pay.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\2b1965aa-3fce-48ee-b31d-5b93e922b959_vnpay_cs.zip.959\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\2b1965aa-3fce-48ee-b31d-5b93e922b959_vnpay_cs.zip.959\\vnpay_cs\\VNPAY_CS_ASPX\\vnpay_pay.aspx.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:53:16.752Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ProjectTest1\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwDIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:46:39.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T10:27:39.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAtwCkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T08:02:11.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentResponseViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\PaymentResponseViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\PaymentResponseViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\PaymentResponseViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\PaymentResponseViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T03:34:01.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cart.js",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Cart.js",
+              "RelativeDocumentMoniker": "ProjectTest1\\wwwroot\\js\\Cart.js",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Cart.js",
+              "RelativeToolTip": "ProjectTest1\\wwwroot\\js\\Cart.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-21T07:50:13.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T02:54:42.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T09:34:51.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Home.js",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Home.js",
+              "RelativeDocumentMoniker": "ProjectTest1\\wwwroot\\js\\Home.js",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Home.js",
+              "RelativeToolTip": "ProjectTest1\\wwwroot\\js\\Home.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-22T02:48:03.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductVariantModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\ProductVariantModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Models\\ProductVariantModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\ProductVariantModel.cs",
+              "RelativeToolTip": "ProjectTest1\\Models\\ProductVariantModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wB4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:15:30.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartItemModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\CartItemModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Models\\CartItemModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\CartItemModel.cs",
+              "RelativeToolTip": "ProjectTest1\\Models\\CartItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:49:09.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T07:51:36.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\CartItemViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\CartItemViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\CartItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:42:48.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T10:31:01.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.js",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Category.js",
+              "RelativeDocumentMoniker": "ProjectTest1\\wwwroot\\js\\Category.js",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Category.js",
+              "RelativeToolTip": "ProjectTest1\\wwwroot\\js\\Category.js",
+              "ViewState": "AgIAAP8AAAAAAAAAAIBJwAwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-12T10:47:19.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Account.js",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Account.js",
+              "RelativeDocumentMoniker": "ProjectTest1\\wwwroot\\js\\Account.js",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\wwwroot\\js\\Account.js",
+              "RelativeToolTip": "ProjectTest1\\wwwroot\\js\\Account.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-21T07:50:19.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\CartModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Models\\CartModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\CartModel.cs",
+              "RelativeToolTip": "ProjectTest1\\Models\\CartModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:36:56.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAIBQwDoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T04:27:40.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductVariantViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ProductVariantViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\ProductVariantViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ProductVariantViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\ProductVariantViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T04:10:44.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Models\\CategoryModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "ProjectTest1\\Models\\CategoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T04:06:09.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:43:04.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProjectTest1\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T10:24:42.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:59:50.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProjectTest1\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:25:05.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Repository\\DataContext.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Repository\\DataContext.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Repository\\DataContext.cs",
+              "RelativeToolTip": "ProjectTest1\\Repository\\DataContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:39:37.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Models\\UserModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\UserModel.cs",
+              "RelativeToolTip": "ProjectTest1\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:37:45.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductImageModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\ProductImageModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Models\\ProductImageModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\ProductImageModel.cs",
+              "RelativeToolTip": "ProjectTest1\\Models\\ProductImageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T03:37:15.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ListData.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\ListData.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Product\\ListData.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\ListData.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Product\\ListData.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAIBJwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T10:31:41.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T10:31:02.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250820080010_removeFeild.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Migrations\\20250820080010_removeFeild.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Migrations\\20250820080010_removeFeild.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Migrations\\20250820080010_removeFeild.cs",
+              "RelativeToolTip": "ProjectTest1\\Migrations\\20250820080010_removeFeild.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T08:00:10.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Models\\ProductModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Models\\ProductModel.cs",
+              "RelativeToolTip": "ProjectTest1\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:44:38.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ListData.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\ListData.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Category\\ListData.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\ListData.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Category\\ListData.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T08:21:29.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T13:38:56.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ListData.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Home\\ListData.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Home\\ListData.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Home\\ListData.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Home\\ListData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T04:41:10.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjectTest1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:25:07.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T08:11:15.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectTest1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectTest1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T04:49:06.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ColorViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ColorViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\ColorViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ColorViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\ColorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T03:37:28.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\ResetPasswordViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T04:52:08.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SizeViewModel.cs",
+              "DocumentMoniker": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\SizeViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectTest1\\ViewModels\\SizeViewModel.cs",
+              "ToolTip": "D:\\C#\\ProjectTest1\\ProjectTest1\\ViewModels\\SizeViewModel.cs",
+              "RelativeToolTip": "ProjectTest1\\ViewModels\\SizeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T03:37:18.186Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

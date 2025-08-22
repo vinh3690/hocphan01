@@ -1,0 +1,187 @@
+﻿<div class="modal fade" id="addProductModal" tabindex="-1" role="dialog" aria-labelledby="addProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <form id="createProductForm" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addProductModalLabel">➕ Thêm sản phẩm</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Tên sản phẩm -->
+                        <div class="col-md-6 mb-3">
+                            <label for="Name" class="form-label">Tên sản phẩm</label>
+                            <input type="text" name="Name" id="Name" class="form-control" required>
+                        </div>   
+                    </div>
+
+                    <!-- Dropdown -->
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="CategoryLevel1" class="form-label">Danh mục cấp 1</label>
+                            <select id="CategoryLevel1" class="form-control" required>
+                                <option value="">-- Chọn cấp 1 --</option>
+                                @foreach (var item in Model.CategoriesLevel1)
+                                {
+                                    <option value="@item.Value">@item.Text</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label for="CategoryLevel2" class="form-label">Danh mục cấp 2</label>
+                            <select id="CategoryLevel2" class="form-control" required disabled>
+                                <option value="">-- Chọn cấp 2 --</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label for="CategoryLevel3" class="form-label">Danh mục cấp 3</label>
+                            <select id="CategoryLevel3" name="CategoryId" class="form-control" required disabled>
+                                <option value="">-- Chọn cấp 3 --</option>
+                            </select>
+                        </div>
+
+                        <input type="hidden" id="CategoryId" name="ParentId" />
+                    </div>
+
+
+                    <!-- Giá + Trạng thái -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="Price" class="form-label">Giá (VNĐ)</label>
+                            <input type="number" name="Price" id="Price" class="form-control" step="0.01" min="0" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="IsActive" class="form-label">Trạng thái</label>
+                            <select name="IsActive" id="IsActive" class="form-control">
+                                <option value="true">Hiển thị</option>
+                                <option value="false">Ẩn</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Mô tả -->
+                    <div class="mb-3">
+                        <label for="Description" class="form-label">Mô tả</label>
+                        <textarea name="Description" id="Description" class="form-control" rows="3" maxlength="200"></textarea>
+                    </div>
+
+                    <!-- Ảnh chính -->
+                    <div class="mb-3">
+                        <label for="MainImageFile" class="form-label">Ảnh chính</label>
+                        <input type="file" name="MainImageFile" id="MainImageFile" class="form-control" accept="image/*" required>
+                        <div class="mt-2">
+                            <img id="previewMainImage" src="#" alt="Preview" style="max-width: 200px; display: none;">
+                        </div>
+                    </div>
+
+                    <!-- Ảnh phụ -->
+                    <div class="mb-3">
+                        <label for="SubImagesFiles" class="form-label">Ảnh phụ (có thể chọn nhiều)</label>
+                        <input type="file" name="SubImagesFiles" id="SubImagesFiles" class="form-control" accept="image/*" multiple>
+                        <div class="mt-2 d-flex flex-wrap" id="previewSubImages"></div>
+                    </div>
+                    <!-- Size -->
+                    <!-- Biến thể sản phẩm (Size × Màu) -->
+                    <div id="variantContainer">
+                        @for (int i = 0; i < Model.Colors.Count; i++)
+                        {
+                            var color = Model.Colors[i];
+                            <div class="color-block border p-2 mb-3">
+                                <strong>@color.ColorName</strong>
+                                <div class="d-flex flex-wrap gap-3 mt-2">
+                                    @for (int j = 0; j < Model.Sizes.Count; j++)
+                                    {
+                                        var size = Model.Sizes[j];
+                                        <div class="size-row d-flex align-items-center" style="min-width: 140px;">
+                                            <!-- Checkbox chọn biến thể -->
+                                            <input type="checkbox" class="size-check me-1" id="check_@(i)_@(j)" />
+
+                                            <!-- Hidden inputs để gửi ColorId, SizeId -->
+                                            <input type="hidden" name="Variants[@(i* Model.Sizes.Count + j)].ColorId" value="@color.ColorId" />
+                                            <input type="hidden" name="Variants[@(i* Model.Sizes.Count + j)].SizeId" value="@size.SizeId" />
+
+                                            <!-- Tên size -->
+                                            <span class="me-2">@size.SizeName</span>
+
+                                            <!-- Input số lượng -->
+                                            <input type="number" name="Variants[@(i* Model.Sizes.Count + j)].StockQuantity" class="form-control form-control-sm variant-qty" placeholder="SL" min="0" style="width:70px" disabled>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+
+
+                    <div class="d-flex gap-2 mb-3">
+                        <button type="button" id="selectAll" class="btn btn-primary">Chọn hết</button>
+                        <button type="button" id="clearAll" class="btn btn-secondary">Xóa hết</button>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/js/Product.js"></script>
+}
+<script>
+    // Xem trước ảnh chính
+       document.getElementById('MainImageFile').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        const preview = document.getElementById('previewMainImage');
+        if (file) {
+            preview.src = URL.createObjectURL(file);
+            preview.style.display = 'block';
+        }
+    });
+
+    document.getElementById('SubImagesFiles').addEventListener('change', function(e) {
+        const previewContainer = document.getElementById('previewSubImages');
+        previewContainer.innerHTML = '';
+        Array.from(e.target.files).forEach(file => {
+            const img = document.createElement('img');
+            img.src = URL.createObjectURL(file);
+            img.style.maxWidth = '100px';
+            img.style.marginRight = '5px';
+            img.style.marginBottom = '5px';
+            previewContainer.appendChild(img);
+        });
+    });
+          $(document).ready(function() {
+        // Tick/untick checkbox
+        $('.size-check').change(function() {
+            var qtyInput = $(this).closest('.size-row').find('.variant-qty');
+            if ($(this).is(':checked')) {
+                qtyInput.prop('disabled', false);
+            } else {
+                qtyInput.prop('disabled', true).val(''); // Xóa giá trị khi disable
+            }
+        });
+
+        // Chọn hết
+        $('#selectAll').click(function() {
+            $('.size-check').prop('checked', true);
+            $('.variant-qty').prop('disabled', false);
+        });
+
+        // Xóa hết
+        $('#clearAll').click(function() {
+            $('.size-check').prop('checked', false);
+            $('.variant-qty').prop('disabled', true).val('');
+        });
+    });
+
+
+</script>
+ 
